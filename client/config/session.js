@@ -7,7 +7,7 @@ import {
 } from "./defaults";
 
 /**
- * Set Reaction layout defaults
+ * Set MOC layout defaults
  */
 Session.setDefault("DEFAULT_LAYOUT", DEFAULT_LAYOUT);
 Session.setDefault("DEFAULT_WORKFLOW", DEFAULT_WORKFLOW);

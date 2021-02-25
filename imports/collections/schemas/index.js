@@ -1,5 +1,5 @@
 /**
- * Reaction uses {@link https://github.com/aldeed/simple-schema-js SimpleSchema} to apply basic content and structure validation to Collections.
+ * MOC uses {@link https://github.com/aldeed/simple-schema-js SimpleSchema} to apply basic content and structure validation to Collections.
  * See {@link https://docs.reactioncommerce.com/reaction-docs/trunk/simple-schema full documentation}.
  * @typedef {SimpleSchema} SimpleSchema
  * @summary SimpleSchema for Collections
@@ -7,7 +7,7 @@
  */
 
 /**
- * Reaction uses {@link https://github.com/aldeed/simple-schema-js SimpleSchema} to apply basic content and structure validation to Collections.
+ * MOC uses {@link https://github.com/aldeed/simple-schema-js SimpleSchema} to apply basic content and structure validation to Collections.
  * See {@link https://docs.reactioncommerce.com/reaction-docs/trunk/simple-schema full documentation}.
  * @namespace Schemas
  */

@@ -101,7 +101,7 @@ export function getComponent(name) {
 /**
  * @name replaceComponent
  * @method
- * @summary Replace a Reaction component with a new component and optionally add one or more higher order components.
+ * @summary Replace a MOC component with a new component and optionally add one or more higher order components.
  * This function keeps track of the previous HOCs and wraps the new HOCs around previous ones
  * @param {String} name The name of the component to register.
  * @param {React.Component} newComponent Interchangeable/extendable component.

@@ -81,7 +81,7 @@ function ShopSelectorWithData({ className, classes, shouldShowShopName, linkTo, 
         to={linkTo}
       >
         <img
-          alt="Reaction Commerce"
+          alt="Mailchimp Open Commerce"
           className={classes.logo}
           src={defaultLogo}
           width={size}
@@ -92,7 +92,7 @@ function ShopSelectorWithData({ className, classes, shouldShowShopName, linkTo, 
           component="span"
           variant="h3"
         >
-          Reaction Commerce
+          Mailchimp Open Commerce
         </Typography>
         }
       </Link>

@@ -28,8 +28,8 @@ const fakeCatalogItemsConnection = {
         product: {
           __typename: "CatalogProduct",
           _id: "cmVhY3Rpb24vY2F0YWxvZ1Byb2R1Y3Q6QkNUTVo2SFR4RlNwcEpFU2s=",
-          title: "Basic Reaction Producdts",
-          slug: "basic-reaction-product",
+          title: "Basic MOC Products",
+          slug: "basic-moc-product",
           description: "Sign in as administrator to edit.",
           vendor: "Example Manufacturer",
           isLowQuantity: false,

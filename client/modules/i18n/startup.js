@@ -39,7 +39,7 @@ const configuredI18next = i18next
  * @return {undefined}
  */
 async function initializeI18n(fallbackLng) {
-  // Reaction does not have a predefined list of namespaces. Any API plugin can
+  // MOC does not have a predefined list of namespaces. Any API plugin can
   // add any namespaces. So we must first get the list of namespaces from the API.
   const namespaceResponse = await fetch(`${i18nBaseUrl}/locales/namespaces.json`);
   const allTranslationNamespaces = await namespaceResponse.json();
@@ -65,7 +65,7 @@ async function initializeI18n(fallbackLng) {
         order: ["querystring", "navigator"]
       },
       ns: allTranslationNamespaces,
-      defaultNS: "core", // reaction "core" is the default namespace
+      defaultNS: "core", // MOC "core" is the default namespace
       fallbackNS: allTranslationNamespaces,
       fallbackLng
     });

@@ -13,7 +13,7 @@ If you're solving a UIX related issue, please attach screen-caps or gifs showing
 ## Breaking changes
 If you have a breaking changes, list them here, otherwise list none.
 
-Examples of breaking changes include changing file names, moving files, deleting files, renaming functions or exports, or changes to code which might cause previous versions of Reaction or third-party code not to work as expected.
+Examples of breaking changes include changing file names, moving files, deleting files, renaming functions or exports, or changes to code which might cause previous versions of Mailchimp Open Commerce or third-party code not to work as expected.
 
 Note any work that you did to mitigate the effect of any breaking changes such as creating migrations, deprecation warnings, etc.
 
