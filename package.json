@@ -33,7 +33,7 @@
     "@reactioncommerce/file-collections": "^0.7.3",
     "@reactioncommerce/logger": "1.1.1",
     "@reactioncommerce/random": "1.0.1",
-    "@reactioncommerce/-error": "^1.0.1",
+    "@reactioncommerce/reaction-error": "^1.0.1",
     "@reactioncommerce/schemas": "1.1.0",
     "accounting-js": "^1.1.1",
     "apollo-cache-inmemory": "1.6.3",
@@ -279,10 +279,10 @@
               ],
               "alias": {
                 "@reactioncommerce/api-utils": "./imports/utils",
-                "@reactioncommerce/collections": "./imports/plugins/core/collections",
-                "@reactioncommerce/components": "./imports/plugins/core/components/lib",
-                "@reactioncommerce/router": "./imports/plugins/core/router/lib",
-                "@reactioncommerce/ui": "./imports/plugins/core/ui/client/components",
+                "@reactioncommerce/reaction-collections": "./imports/plugins/core/collections",
+                "@reactioncommerce/reaction-components": "./imports/plugins/core/components/lib",
+                "@reactioncommerce/reaction-router": "./imports/plugins/core/router/lib",
+                "@reactioncommerce/reaction-ui": "./imports/plugins/core/ui/client/components",
                 "underscore": "lodash"
               }
             }
