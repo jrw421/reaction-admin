@@ -4,8 +4,8 @@
 
 Start here:
 
-- [MOC Components API](Components.html)
-- [MOC Core schemas](Schemas.html)
+- [Mailchimp Open Commerce Components API](Components.html)
+- [Mailchimp Open Commerce Core schemas](Schemas.html)
 
 > **ProTip**: You can generate docs locally and work offline. Run `npm run docs` and open `file:///tmp/reaction-docs/index.html` in any browser.
 
