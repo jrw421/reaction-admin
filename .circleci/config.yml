@@ -5,8 +5,8 @@ version: 2
 # typing. See http://yaml.org/type/merge.html for details.
 defaults: &defaults
   environment:
-    CI_SCRIPTS: 'npx --quiet --package @reactioncommerce/ci-scripts@1.6.2'
-    DOCKER_REPOSITORY: "reactioncommerce/admin"
+    CI_SCRIPTS: 'npx --quiet --package @mailchimp-open-commerce/ci-scripts@1.6.2'
+    DOCKER_REPOSITORY: "admin"
     DOCKER_NAMESPACE: "reactioncommerce"
     DOCKER_NAME: "admin"
   docker:
@@ -19,8 +19,8 @@ jobs:
       - checkout
       - restore_cache:
           keys:
-            - reaction-admin-v3-node-modules-{{ checksum "package.json" }}-{{ checksum "package-lock.json" }}
-            - reaction-admin-v3-node-modules-{{ .Branch }}
+            - admin-v3-node-modules-{{ checksum "package.json" }}-{{ checksum "package-lock.json" }}
+            - admin-v3-node-modules-{{ .Branch }}
       - run:
           name: Install the same NPM version that Meteor uses
           command: sudo npm i -g npm@6.14.0
@@ -28,11 +28,11 @@ jobs:
           name: Install NPM dependencies
           command: npm -v && npm ci
       - save_cache:
-          key: reaction-admin-v3-node-modules-{{ checksum "package.json" }}-{{ checksum "package-lock.json" }}
+          key: admin-v3-node-modules-{{ checksum "package.json" }}-{{ checksum "package-lock.json" }}
           paths:
             - node_modules
       - save_cache:
-          key: reaction-admin-v3-node-modules-{{ .Branch }}
+          key: admin-v3-node-modules-{{ .Branch }}
           paths:
             - node_modules
 
@@ -52,8 +52,8 @@ jobs:
       - checkout
       - restore_cache:
           keys:
-            - reaction-admin-v3-node-modules-{{ checksum "package.json" }}-{{ checksum "package-lock.json" }}
-            - reaction-admin-v3-node-modules-{{ .Branch }}
+            - admin-v3-node-modules-{{ checksum "package.json" }}-{{ checksum "package-lock.json" }}
+            - admin-v3-node-modules-{{ .Branch }}
       - run:
           name: Lint JavaScript
           command: npm run lint
@@ -64,8 +64,8 @@ jobs:
       - checkout
       - restore_cache:
           keys:
-            - reaction-admin-v3-node-modules-{{ checksum "package.json" }}-{{ checksum "package-lock.json" }}
-            - reaction-admin-v3-node-modules-{{ .Branch }}
+            - admin-v3-node-modules-{{ checksum "package.json" }}-{{ checksum "package-lock.json" }}
+            - admin-v3-node-modules-{{ .Branch }}
       - run:
           name: Run Unit Tests
           command: npm run test:unit
@@ -95,7 +95,7 @@ workflows:
           requires:
             - install-dependencies
       - docker-build-push:
-          context: reaction-publish-docker
+          context: publish-docker
           requires:
             - dockerfile-lint
             - eslint

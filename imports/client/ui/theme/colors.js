@@ -1,5 +1,5 @@
 /**
- * Default Reaction Design System Colors
+ * Default MOC Design System Colors
  */
 
 export default {

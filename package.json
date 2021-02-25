@@ -1,22 +1,22 @@
 {
-  "name": "reaction-admin",
-  "description": "Reaction is a modern reactive, real-time event driven ecommerce platform.",
-  "version": "3.0.0-beta.12",
+  "name": "admin",
+  "description": "Mailchimp Open Commerce is a modern reactive, real-time event driven ecommerce platform.",
+  "version": "4.0.0",
   "main": "main.js",
   "directories": {
     "test": "tests"
   },
-  "homepage": "https://github.com/reactioncommerce/reaction-admin",
-  "url": "https://github.com/reactioncommerce/reaction-admin",
-  "email": "reaction@reactioncommerce.com",
+  "homepage": "https://github.com/mailchimp-open-commerce/admin",
+  "url": "https://github.com/mailchimp-open-commerce/admin",
+  "email": "contact@opencommerce.mailchimp.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/reactioncommerce/reaction-admin.git"
+    "url": "https://github.com/mailchimp-open-commerce/admin.git"
   },
-  "author": "Reaction Commerce <hello@reactioncommerce.com>",
+  "author": "Mailchimp Open Commerce <hello@opencommerce.mailchimp.com>",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/reactioncommerce/reaction-admin/issues"
+    "url": "https://github.com/mailchimp-open-commerce/admin/issues"
   },
   "dependencies": {
     "@apollo/react-hooks": "^3.1.3",

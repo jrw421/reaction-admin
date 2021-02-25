@@ -9,7 +9,7 @@ import { Router } from "/client/modules/router";
 import { getUserId } from "./helpers/utils";
 
 /**
- * Reaction core namespace for client code
+ * MOC core namespace for client code
  * @namespace Core/Client
  */
 

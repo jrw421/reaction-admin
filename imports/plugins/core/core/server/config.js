@@ -12,9 +12,9 @@ export default envalid.cleanEnv(process.env, {
     example: "http://hydra.reaction.localhost:4445"
   }),
   OAUTH2_CLIENT_ID: str({
-    default: "reaction-admin",
+    default: "admin",
     desc: "The OAuth2 client ID to use for authentication flows from the browser",
-    example: "reaction-admin"
+    example: "admin"
   }),
   OAUTH2_PUBLIC_URL: str({
     desc: "An OAuth2 OpenID Connect compliant URL",
@@ -38,7 +38,7 @@ export default envalid.cleanEnv(process.env, {
     example: "http://localhost:3000"
   }),
   OAUTH2_IDP_PUBLIC_CHANGE_PASSWORD_URL: str({
-    desc: "The Reaction Identity server password change URL. Uppercase EMAIL and FROM placeholders will be replaced with the user's email and a redirect URL.",
+    desc: "The MOC Identity server password change URL. Uppercase EMAIL and FROM placeholders will be replaced with the user's email and a redirect URL.",
     example: "http://localhost:4100/account/change-password?email=EMAIL&from=FROM"
   }),
   PUBLIC_STOREFRONT_HOME_URL: str({
@@ -51,7 +51,7 @@ export default envalid.cleanEnv(process.env, {
     example: "1574809954951"
   }),
   ROOT_URL: str({
-    desc: "The canonical root URL for the Reaction Admin server",
+    desc: "The canonical root URL for the Admin server",
     example: "http://localhost:4080"
   })
 });

@@ -1,3 +1,7 @@
+# v4.0.0
+
+Following Mailchimp's acquisition of Reaction the organization is being renamed to Mailchimp Open Commerce (or MOC). Changes in this release reflect the naming updates.
+
 # v3.0.0-beta.12
 
 Reaction v3.0.0-beta.12 adds minor features or bug fixes and contains no breaking changes since v3.0.0-beta.11.

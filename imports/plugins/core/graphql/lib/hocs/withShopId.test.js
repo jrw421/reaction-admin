@@ -14,7 +14,7 @@ const mocks = [
     request: {
       query: getShopId,
       variables: {
-        slug: "reaction"
+        slug: "moc"
       }
     },
     result: {
@@ -45,7 +45,7 @@ test("renders child component with correct shop id", async () => {
   act(() => {
     wrapper = mount((
       <MockedProvider mocks={mocks} addTypename={false}>
-        <TestComponent shopSlug="reaction" />
+        <TestComponent shopSlug="moc" />
       </MockedProvider>
     ));
   });

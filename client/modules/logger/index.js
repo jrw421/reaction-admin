@@ -2,7 +2,7 @@ import { bunyan } from "@reactioncommerce/logger";
 import { Meteor } from "meteor/meteor";
 
 /*
- * configure bunyan logging module for reaction client
+ * configure bunyan logging module for MOC client
  * See: https://github.com/trentm/node-bunyan#levels
  * client we'll cofigure WARN as default
  */

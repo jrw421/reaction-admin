@@ -447,7 +447,7 @@ function selectLayout(layout, setLayout, setWorkflow) {
 /**
  * @name ReactionLayout
  * @method
- * @summary sets and returns reaction layout structure
+ * @summary sets and returns MOC layout structure
  * @param {Object} options - this router context
  * @param {String} options.layout - string of shop.layout.layout (defaults to coreLayout)
  * @param {String} options.workflow - string of shop.layout.workflow (defaults to coreLayout)

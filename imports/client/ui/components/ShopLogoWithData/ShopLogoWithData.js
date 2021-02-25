@@ -48,7 +48,7 @@ function ShopLogoWithData({ classes, shopId, size }) {
   if (!shopId) {
     return (
       <img
-        alt="Reaction Commerce"
+        alt="Mailchimp Open Commerce"
         className={classes.logo}
         src={defaultLogo}
         width={size}

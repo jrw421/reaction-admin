@@ -4,7 +4,7 @@ import { WebApp } from "meteor/webapp";
 import config from "../config.js";
 
 /**
- * Set headers for Reaction CDN
+ * Set headers for MOC CDN
  */
 WebApp.rawConnectHandlers.use((req, res, next) => {
   if (req._parsedUrl.pathname.match(/\.(ttf|ttc|otf|eot|woff|svg|font\.css|css)$/)) {

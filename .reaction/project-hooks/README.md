@@ -1,5 +1,5 @@
-This directory contains project hooks for the Reaction development environment.
-They are invoked from the reaction-platform build tools which operate across all
+This directory contains project hooks for the Mailchimp Open Commerce development environment.
+They are invoked from the dev-platform build tools which operate across all
 projects to aid with orchestration.
 
 These hooks provide means for developers of an application to ensure that the

@@ -1,4 +1,4 @@
-# Reaction Jsdoc templates
+# Mailchimp Open Commerce Jsdoc templates
 
 Forked from <http://clenemt.github.io/docdash/> and customized for our experience/themes.
 

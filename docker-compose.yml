@@ -7,18 +7,18 @@
 version: '3.4'
 
 networks:
-  reaction:
+  opencommerce:
     external:
-      name: reaction.localhost
+      name: opencommerce.localhost
 
 services:
-  reaction-admin:
-    image: reactioncommerce/admin:3.0.0-beta.12
+  admin:
+    image: mailchimp-open-commerce/admin:3.0.0-beta.12
     env_file:
       - ./.env
     networks:
       default:
-      reaction:
+      opencommerce:
     ports:
       - "4080:4080"
       - "9231:9229"

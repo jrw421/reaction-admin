@@ -28,7 +28,7 @@ function OperatorRoutes({
           key={route.path}
           path={route.path}
           render={(routeProps) => {
-            const title = i18next.t(route.sidebarI18nLabel, { defaultValue: "Reaction Admin" });
+            const title = i18next.t(route.sidebarI18nLabel, { defaultValue: "MOC Admin" });
 
             if (route.LayoutComponent === null) {
               return (

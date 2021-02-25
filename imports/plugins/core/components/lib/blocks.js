@@ -193,7 +193,7 @@ export function getBlocks(regionName) {
 /**
  * @name replaceBlock
  * @method
- * @summary Replace a Reaction component with a new component and optionally add one or more higher order components.
+ * @summary Replace a MOC component with a new component and optionally add one or more higher order components.
  * This function keeps track of the previous HOCs and wraps the new HOCs around previous ones
  * @param {Object} options Object containing block information
  * @param {String} options.region The region of the block that will be replaced

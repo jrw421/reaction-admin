@@ -6,8 +6,8 @@ import { userPrefs } from "./main";
 import { getUserId } from "./helpers/utils";
 
 /**
- *  Startup Reaction
- *  Init Reaction client
+ *  Startup MOC
+ *  Init MOC client
  */
 Meteor.startup(() => {
   Reaction.init();
