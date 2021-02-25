@@ -27,6 +27,6 @@ Start here:
 - [Mailchimp Open Commerce YouTube videos](https://www.youtube.com/user/reactioncommerce/videos)
 
 ## Join the community calls
-- [Mailchimp Open Community calls](http://getrxn.io/2rcCal): Join our biweekly community calls every other Wednesday at 7AM PST/10AM EST.
-- Subscribe to our [Mailchimp Open Community Google Calendar](http://getrxn.io/2rcCal) to RSVP to the next call and check out the [agenda](https://docs.google.com/document/d/1PwenrammgQJpQfFoUUJZ96i_JJYCM_4glAjB1_ZzgwA/edit?usp=sharing).
-- [Mailchimp Open Action](http://getrxn.io/2rcCal): RSVP for the monthly Mailchimp Open Action livestreams.
+- [Mailchimp Open Commerce Community calls](http://getrxn.io/2rcCal): Join our biweekly community calls every other Wednesday at 7AM PST/10AM EST.
+- Subscribe to our [Mailchimp Open Commerce Community Google Calendar](http://getrxn.io/2rcCal) to RSVP to the next call and check out the [agenda](https://docs.google.com/document/d/1PwenrammgQJpQfFoUUJZ96i_JJYCM_4glAjB1_ZzgwA/edit?usp=sharing).
+- [Mailchimp Open Commerce Action](http://getrxn.io/2rcCal): RSVP for the monthly Mailchimp Open Action livestreams.

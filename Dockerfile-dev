@@ -1,4 +1,4 @@
-FROM moc/meteor:1.10.2-v1
+FROM mailchimp-open-commerce/meteor:1.10.2-v1
 
 # hadolint ignore=DL3002
 USER root

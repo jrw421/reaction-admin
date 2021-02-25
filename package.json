@@ -11,7 +11,7 @@
   "email": "contact@opencommerce.mailchimp.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/moc/admin.git"
+    "url": "https://github.com/mailchimp-open-commerce/admin.git"
   },
   "author": "Mailchimp Open Commerce <hello@opencommerce.mailchimp.com>",
   "license": "GPL-3.0",
@@ -27,14 +27,14 @@
     "@fortawesome/react-fontawesome": "^0.1.4",
     "@material-ui/core": "^4.9.2",
     "@material-ui/lab": "^4.0.0-alpha.42",
-    "@moc/catalyst": "^1.19.1",
-    "@moc/components": "^0.69.0",
-    "@moc/components-context": "1.2.0",
-    "@moc/file-collections": "^0.7.3",
-    "@moc/logger": "1.1.1",
-    "@moc/random": "1.0.1",
-    "@moc/-error": "^1.0.1",
-    "@moc/schemas": "1.1.0",
+    "@reactioncommerce/catalyst": "^1.19.1",
+    "@reactioncommerce/components": "^0.69.0",
+    "@reactioncommerce/components-context": "1.2.0",
+    "@reactioncommerce/file-collections": "^0.7.3",
+    "@reactioncommerce/logger": "1.1.1",
+    "@reactioncommerce/random": "1.0.1",
+    "@reactioncommerce/-error": "^1.0.1",
+    "@reactioncommerce/schemas": "1.1.0",
     "accounting-js": "^1.1.1",
     "apollo-cache-inmemory": "1.6.3",
     "apollo-client": "2.6.4",
@@ -144,7 +144,7 @@
     "@babel/preset-react": "7.0.0",
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
-    "@moc/eslint-config": "^2.1.0",
+    "@reactioncommerce/eslint-config": "^2.1.0",
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "10.0.3",
     "babel-jest": "^24.8.0",
@@ -182,19 +182,19 @@
     "wait-for-expect": "^1.2.0"
   },
   "scripts": {
-    "start:dev": "node --experimental-modules ./.moc/scripts/run.mjs",
-    "inspect": "node --experimental-modules ./.moc/scripts/run.mjs --inspect",
-    "inspect-brk": "node --experimental-modules  ./.moc/scripts/run.mjs --inspect-brk",
-    "inspect-docker": "node --experimental-modules  ./.moc/scripts/run.mjs --inspect=0.0.0.0:9229",
-    "inspect-brk-docker": "node --experimental-modules  ./.moc/scripts/run.mjs --inspect-brk=0.0.0.0:9229",
+    "start:dev": "node --experimental-modules ./.reaction/scripts/run.mjs",
+    "inspect": "node --experimental-modules ./.reaction/scripts/run.mjs --inspect",
+    "inspect-brk": "node --experimental-modules  ./.reaction/scripts/run.mjs --inspect-brk",
+    "inspect-docker": "node --experimental-modules  ./.reaction/scripts/run.mjs --inspect=0.0.0.0:9229",
+    "inspect-brk-docker": "node --experimental-modules  ./.reaction/scripts/run.mjs --inspect-brk=0.0.0.0:9229",
     "lint": "eslint .",
     "lint:errors": "eslint . --quiet",
     "lint:warnings": "eslint --max-warnings=0",
     "test": "npm run test:unit",
-    "test:unit": "BABEL_DISABLE_CACHE=1 MOC_LOG_LEVEL=ERROR jest --maxWorkers=4",
-    "test:unit:watch": "BABEL_DISABLE_CACHE=1 MOC_LOG_LEVEL=ERROR jest --maxWorkers=4 --watch",
-    "test:file": "MOC_LOG_LEVEL=ERROR jest --runInBand --watch",
-    "docs": "jsdoc . --configure .moc/jsdoc/jsdoc.json --readme .moc/jsdoc/templates/static/README.md",
+    "test:unit": "BABEL_DISABLE_CACHE=1 REACTION_LOG_LEVEL=ERROR jest --maxWorkers=4",
+    "test:unit:watch": "BABEL_DISABLE_CACHE=1 REACTION_LOG_LEVEL=ERROR jest --maxWorkers=4 --watch",
+    "test:file": "REACTION_LOG_LEVEL=ERROR jest --runInBand --watch",
+    "docs": "jsdoc . --configure .reaction/jsdoc/jsdoc.json --readme .reaction/jsdoc/templates/static/README.md",
     "version": "echo $npm_package_version",
     "postinstall": "is-ci || is-docker || husky install",
     "prepublishOnly": "pinst --disable",
@@ -224,11 +224,11 @@
             "./"
           ],
           "alias": {
-            "@moc/api-utils": "./imports/utils",
-            "@moc/moc-collections": "./imports/plugins/core/collections",
-            "@moc/moc-components": "./imports/plugins/core/components/lib",
-            "@moc/moc-router": "./imports/plugins/core/router/lib",
-            "@moc/moc-ui": "./imports/plugins/core/ui/client/components",
+            "@reactioncommerce/api-utils": "./imports/utils",
+            "@reactioncommerce/reaction-collections": "./imports/plugins/core/collections",
+            "@reactioncommerce/reaction-components": "./imports/plugins/core/components/lib",
+            "@reactioncommerce/reaction-router": "./imports/plugins/core/router/lib",
+            "@reactioncommerce/reaction-ui": "./imports/plugins/core/ui/client/components",
             "underscore": "lodash"
           }
         }
@@ -278,11 +278,11 @@
                 "./"
               ],
               "alias": {
-                "@moc/api-utils": "./imports/utils",
-                "@moc/collections": "./imports/plugins/core/collections",
-                "@moc/components": "./imports/plugins/core/components/lib",
-                "@moc/router": "./imports/plugins/core/router/lib",
-                "@moc/ui": "./imports/plugins/core/ui/client/components",
+                "@reactioncommerce/api-utils": "./imports/utils",
+                "@reactioncommerce/collections": "./imports/plugins/core/collections",
+                "@reactioncommerce/components": "./imports/plugins/core/components/lib",
+                "@reactioncommerce/router": "./imports/plugins/core/router/lib",
+                "@reactioncommerce/ui": "./imports/plugins/core/ui/client/components",
                 "underscore": "lodash"
               }
             }
@@ -297,7 +297,7 @@
     "IE 11"
   ],
   "eslintConfig": {
-    "extends": "@moc",
+    "extends": "@reactioncommerce",
     "globals": {
       "Alerts": true,
       "Assets": true,

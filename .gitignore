@@ -51,10 +51,10 @@ private/plugins/*
 imports/plugins/custom/*
 !imports/plugins/custom/.gitkeep
 
-.moc/config.json
+.reaction/config.json
 
 coverage/*
 
-.moc/pluginConfig.js
+.reaction/pluginConfig.js
 
 docker-compose.override.yml

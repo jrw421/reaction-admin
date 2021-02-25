@@ -2,7 +2,7 @@ import accounting from "accounting-js";
 import CurrencyDefinitions from "./CurrencyDefinitions";
 
 /**
- * A wrapper around accounting.formatMoney that handles minor differences between MOC
+ * A wrapper around accounting.formatMoney that handles minor differences between Mailchimp Open Commerce
  * API and accounting.js API.
  * @param {Number} price - A price (float)
  * @param {String} [currencyCode] - A currency code
