@@ -13,7 +13,7 @@
 .build.log
 Dockerfile
 Dockerfile-devserver
-.moc/docker/moc.*
+.reaction/docker/reaction.*
 docs
 node_modules
 packages/*/.npm
